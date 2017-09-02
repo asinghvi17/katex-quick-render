@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle katex-quick-render",
+        "command": "katex-quick-render:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "katex-quick-render",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "katex-quick-render:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

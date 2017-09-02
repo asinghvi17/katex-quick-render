@@ -1,0 +1,18 @@
+{
+  "name": "katex-quick-render",
+  "main": "./lib/katex-quick-render",
+  "version": "0.1.0",
+  "description": "An atom plugin to render LaTeX maths equations instantly using KaTeX. Avoid waiting while your whole pdf compiles.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "katex-quick-render:toggle"
+  },
+  "repository": "https://github.com/callumi/katex-quick-render",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "katex": "^0.8.3"
+  }
+}
