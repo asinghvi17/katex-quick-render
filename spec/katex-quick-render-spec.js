@@ -69,5 +69,11 @@ describe('KatexQuickRender', () => {
         expect(katexQuickRenderElement).not.toBeVisible();
       });
     });
+
+    it('parses maths correctly', () => {
+      expect(KatexQuickRender.parseText("$math$")).toEqual(["math"]);
+      expect(KatexQuickRender.parseText("$$math$$")).toEqual(["math"]);
+      expect(KatexQuickRender.parseText("$$mat\nh$$")).toEqual(["mat\nh"]);
+    });
   });
 });
