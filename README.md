@@ -1,4 +1,4 @@
-# KaTeX Quick Render
+# katex-quick-render
 
 An atom plugin to render LaTeX maths equations instantly using KaTeX. Avoid waiting while your whole pdf compiles.
 
