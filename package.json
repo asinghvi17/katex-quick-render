@@ -7,10 +7,10 @@
   "activationCommands": {
     "atom-workspace": "katex-quick-render:toggle"
   },
-  "repository": "https://github.com/callumi/katex-quick-render",
+  "repository": "https://github.com/cal-id/katex-quick-render",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.19.0 <2.0.0"
   },
   "dependencies": {
     "katex": "^0.8.3"
