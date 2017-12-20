@@ -1,7 +1,7 @@
 {
   "name": "katex-quick-render",
   "main": "./lib/katex-quick-render",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "An atom plugin to render LaTeX maths equations instantly using KaTeX. Avoid waiting while your whole pdf compiles.",
   "keywords": [],
   "activationCommands": {
