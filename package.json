@@ -14,9 +14,15 @@
   },
   "dependencies": {
     "atom-package-deps": "^4.6.0",
-    "katex": "^0.8.3"
+    "katex": "^0.11.1",
+    "mathjs": "^6.2.3"
   },
   "package-deps": [
     "language-latex:1.0.0"
-  ]
+  ],
+  "apmInstallSource": {
+    "type": "git",
+    "source": "asinghvi17/katex-quick-render",
+    "sha": "edaf2fa71f444200e027788a723df33454e74a1b"
+  }
 }
